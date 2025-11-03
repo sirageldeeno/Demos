@@ -21,7 +21,7 @@ namespace ConsoleApp.InputDemo
             Console.WriteLine("Enter your age : ");
             age = Convert.ToInt32(Console.ReadLine());
             //process reirment left years
-            retirmentLeftYears = retirmentAge - age;
+            retirmentLeftYears = retirmentAge + age;
             //Output data
             Console.WriteLine($"Your full Name is : {firstName} {lastName}");
             Console.WriteLine($"Your Age is : {age}");
